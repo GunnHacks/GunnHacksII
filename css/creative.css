@@ -65,13 +65,13 @@ p {
 }
 
 
-.orange{
+.red{
   background-color: #dd5d5c;
   height: 50px;
   color: #ffffff;
 }
 
-.oranger{
+.reder{
   background-color: #dd5d5c;
   height: 30px;
   color: #ffffff;
@@ -499,4 +499,96 @@ body {
     display: block;
     max-width: 100%;
     height: auto;
+}
+
+#supporters {
+    color: #7e7e7e;
+}
+
+#supporters .flex-container {
+    margin-left: 0;
+    margin-bottom: 20px;
+    padding-left: 0;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    list-style: none;
+}
+
+#supporters .flex-item {
+    padding: 5px;
+    max-height: 100px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+#supporters .supporter-item {
+    padding: 12px;
+    margin: 5px;
+    max-height: 70px;
+}
+
+#supporters .supporter-item.partner {
+    max-height: 90px;
+}
+
+#supporters #google {
+    height: 90px;
+}
+
+@media (min-width: 637px) {
+    #supporters #google {
+        margin-top: 17px;
+    }
+}
+
+#supporters .logos {
+    margin: 20px;
+}
+
+#supporters #partner-logos {
+    margin-bottom: 0;
+}
+
+#supporters .supporter-title {
+    margin-top: 40px;
+}
+
+#supporters #supporter-header {
+    padding-bottom: 40px;
+}
+
+#supporters #supporter-label {
+    padding: 0;
+    margin: 0;
+    margin-top: 30px;
+}
+
+#supporters #community-partners li: nth-child(2) img {
+    padding: 15px 0 0 0;
+}
+
+.skinny-wrapper {
+    margin: 0 auto;
+    max-width: 768px;
+    width: 80%;
+}
+
+img {
+    vertical-align: middle;
+    border: 0;
+}
+
+#supporters #community-partners li {
+    display: list-item;
 }
