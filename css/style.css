@@ -465,27 +465,27 @@ fieldset[disabled] .btn-primary.active {
 ::-moz-selection {
     text-shadow: none;
     color: #fff;
-    background: #222;
+    background: #dd5d5d;
 }
 
 ::selection {
     text-shadow: none;
     color: #fff;
-    background: #222;
+    background: #dd5d5d;
 }
 
 img::selection {
-    color: #fff;
+    color: #dd5d5d;
     background: 0 0;
 }
 
 img::-moz-selection {
-    color: #fff;
+    color: #dd5d5d;
     background: 0 0;
 }
 
 body {
-    webkit-tap-highlight-color: #222;
+    webkit-tap-highlight-color: #dd5d5d;
 }
 
 #logo {
