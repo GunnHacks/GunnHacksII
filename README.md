@@ -1,3 +1,4 @@
 # GunnHacks 2.0
-GunnHacks 2.0. Back this academic year 2015-16.
-Join us at <http://gunnhacks.com>.
+Make, Build, Create & Learn. It’s GunnHacks 2.0, Gunn’s 24-hour high school hackathon.
+
+Join us Friday–Saturday, March 25–26, 7 pm–7 pm. Register at <www.gunnhacks.com>.
