@@ -588,3 +588,8 @@ img {
 #supporters #community-partners li {
     display: list-item;
 }
+
+#map {
+    width: 100%;
+    height: 400px;
+}
