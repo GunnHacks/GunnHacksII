@@ -618,3 +618,7 @@ footer ul li {
 .btn.disabled, .btn[disabled], fieldset[disabled] .btn {
     opacity: 1;
 }
+
+.social-media-buttons {
+    -webkit-padding-start: 0;
+}

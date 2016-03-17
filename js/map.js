@@ -7,5 +7,6 @@ function initMap() {
     panControl: false,
     mapTypeControl: false,
     streetViewControl: false,
+    draggable: false
   });
 }
