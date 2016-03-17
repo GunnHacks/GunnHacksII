@@ -614,3 +614,7 @@ footer ul li {
     margin-left: 5px;
     margin-right: 5px;
 }
+
+.btn.disabled, .btn[disabled], fieldset[disabled] .btn {
+    opacity: 1;
+}
