@@ -515,8 +515,3 @@ fieldset[disabled] .btn {
 .social-media-buttons {
     -webkit-padding-start: 0;
 }
-
-#other-years * {
-    color: white;
-    margin-left: 1rem;
-}
